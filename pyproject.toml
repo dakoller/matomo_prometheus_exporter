@@ -1,0 +1,12 @@
+[project]
+name = "matomo-prometheus-exporter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask>=3.1.0",
+    "prometheus-client>=0.21.1",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
